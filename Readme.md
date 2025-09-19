@@ -5,74 +5,44 @@
 PhysicsWebsite/
 
 │
-
 ├── app.py # Main Flask backend
-
 ├── requirements.txt # Python dependencies
-
 ├── credentials/ # Google Service Account JSON
-
 │ └── credentials.json
-
 ├── data/ # JSON & CSV sample data
-
 │ ├── faculty.json
-
 │ ├── research.json
-
 │ ├── labs.json
-
 │ ├── contact_submissions.csv (given just for storing in local database)
-
 │ ├── achievemnets.json
-
 │ ├── publications.json
-
 │ ├── announcements.json
-
 ├── static/ # CSS, JS, Images
-
 │ ├── css/
-
 │ ├── js/
-
 │ ├── images/
-
 ├── templates/ # HTML templates
-
 │ ├── index.html
-
 │ ├── faculty.html
-
 │ ├── research.html
-
 │ ├── publications.html
-
 │ ├── contact.html
-
 │ └── about.html
-
 │ └── achievements.html
-
 │ └── curriculum.html
-
 │ └── labs.html
-
 └── README.md
-
 ---
 
 ## Setup & Run Instructions
 
 ## 1️⃣ Clone the Repository
-
 ```
 git clone https://github.com/Doofenshmirtz16/Physics-Association-Website.git
 cd Physics-Association-Website
 ```
 
 ## 2️⃣ Install Dependencies
-
 ```
 pip install -r requirements.txt
 ```
