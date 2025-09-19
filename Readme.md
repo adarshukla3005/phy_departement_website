@@ -1,9 +1,8 @@
 # Physics Department Website
 
 ## Folder Structure
-
+```
 PhysicsWebsite/
-
 │
 ├── app.py # Main Flask backend
 ├── requirements.txt # Python dependencies
@@ -32,7 +31,7 @@ PhysicsWebsite/
 │ └── curriculum.html
 │ └── labs.html
 └── README.md
----
+```
 
 ## Setup & Run Instructions
 
